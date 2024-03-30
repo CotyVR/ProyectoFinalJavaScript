@@ -153,4 +153,23 @@ h4 {
   place-items: center;
   border: 2px solid blue;
   color: black;
+}
+
+.marcoChuckN {
+  display: grid;
+  justify-content: center;
+  margin-top: 50px;
+  max-width: 350px;
+}
+.marcoChuckN img {
+  margin: 20px;
+  width: 350px;
+}
+.marcoChuckN #container {
+  text-align: center;
+  max-width: 360px;
+}
+.marcoChuckN .btnNoIngreso {
+  margin: 20px;
+  width: 50px;
 }/*# sourceMappingURL=main.css.map */

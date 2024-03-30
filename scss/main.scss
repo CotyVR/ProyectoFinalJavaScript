@@ -158,5 +158,26 @@ h4{
     }
 }
 
+.marcoChuckN{
+    display: grid;
+    justify-content: center;
+    margin-top: 50px;
+    max-width: 350px;
+    
+    img{
+        margin: 20px;
+        width: 350px;
+    }
 
+    #container{
+        text-align: center; 
+        max-width: 360px;  
+    }
+
+    .btnNoIngreso{
+        margin: 20px;
+        width: 50px;
+    }
+
+}
 
