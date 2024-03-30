@@ -1,0 +1,51 @@
+<!-- ProyectoFinal: Constanza Vilchez -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO -->
+    <title>Juego</title>
+    <!-- Logo -->
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+    <!-- Estilo en SASS -->
+    <link rel="stylesheet" href="./scss/main.css">
+</head>
+<body>
+    <h1>Bienvenido jugadores</h1>
+    <h2>El día de hoy queremos invitarlos a participar en distintas versiones del juego Gato.</h2>
+    <h3>Por favor, para una mejor experiencia, les recomendamos indicar sus nombres.</h3>
+    
+    <div class="marco">
+    <div class="bienvenida">
+        <label for="jugador1">Jugador 1:</label>
+        <input type="text" id="jugador1">
+
+        <label for="jugador2">Jugador 2:</label>
+        <input type="text" id="jugador2">
+        
+        <div class="btnYesIngreso">Ingresar</div>
+    </div>
+    </div>
+
+    <h2>Nuestras opciones son:</h2>
+   
+    <div class="opcionesDeJuegos">
+        <a class="btnGeneral" href="../pag/gatoTra.html">Gato Tradicional</a>
+        <a class="btnGeneral" href="../pag/gatoMem.html">Gato Memorice</a>
+    </div>
+
+    <h2>Nada que ver, pero ¿Quieres leer chistes de Chuck Norris en inglés?</h2>
+   
+    <div class="random">
+        <a class="btnGeneral" href="./pag/api.html">¡Claro!</a>
+    </div>
+
+    <!-- Enlace con JS -->
+    <script src="./js/index.js"></script>
+
+     <!-- Enlace con la librería: SweetAlert2 -->
+     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+</html>

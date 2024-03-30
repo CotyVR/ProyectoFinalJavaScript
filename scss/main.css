@@ -1,0 +1,156 @@
+@charset "UTF-8";
+/* Proyecto Final: Constanza Vilchez  */
+/* Estructura general */
+html {
+  margin: 0;
+  font-family: calibri;
+  height: auto;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: justify;
+}
+
+h3 {
+  text-align: justify;
+}
+
+h4 {
+  text-align: justify;
+}
+
+/* Botones */
+.btnGeneral {
+  display: inline-block;
+  margin: 10px;
+  padding: 5px 40px;
+  border-radius: 20px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 700;
+  justify-content: center;
+  background-color: rgb(96, 135, 242);
+  border: 2px solid skyblue;
+  color: white;
+  width: 150px;
+}
+.btnGeneral:hover {
+  background-color: yellow;
+  border: 2px solid yellow;
+  color: black;
+}
+
+.btnYesIngreso {
+  display: inline-block;
+  margin: 10px;
+  padding: 5px 40px;
+  border-radius: 20px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 700;
+  justify-content: center;
+  background-color: blue;
+  border: 2px solid blue;
+  color: white;
+}
+.btnYesIngreso:hover {
+  background-color: yellow;
+  border: 2px solid yellow;
+  color: black;
+}
+
+.btnNoIngreso {
+  display: inline-block;
+  margin: 10px;
+  padding: 5px 40px;
+  border-radius: 20px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 700;
+  justify-content: center;
+  background-color: blue;
+  border: 2px solid blue;
+  color: white;
+}
+.btnNoIngreso:hover {
+  background-color: red;
+  border: 2px solid red;
+  color: black;
+}
+
+/* Index */
+/* Ingreso de los nombres de los jugadores */
+.marco {
+  display: grid;
+  justify-content: center;
+}
+.marco .bienvenida {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(62, 62, 62);
+  border-radius: 20px;
+  width: auto;
+  min-width: 360px;
+  max-width: 600px;
+}
+.marco .bienvenida label {
+  margin-top: 10px;
+}
+.marco .bienvenida input {
+  width: 330px;
+  margin-top: 10px;
+}
+.marco .bienvenida .btnYesIngreso {
+  width: 100px;
+  margin-top: 20px;
+}
+
+/* Opciones de juegos */
+.opcionesDeJuegos {
+  display: grid;
+  justify-content: center;
+}
+
+/* Opcion random del Index */
+.random {
+  display: grid;
+  justify-content: center;
+}
+
+/* Estructura general del juego Gato */
+#estructuraGato {
+  width: 280px;
+  height: auto;
+  display: none; /* Esto permite que se encuentre oculto, excepto si se indica lo contrario con un botón */
+}
+#estructuraGato .casillas {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+#estructuraGato .casillas .casilla {
+  width: 90px;
+  height: 90px;
+  font-size: 3rem;
+  display: grid;
+  place-items: center;
+  border: 2px solid blue;
+}
+#estructuraGato .casillas .casillaMem {
+  width: 90px;
+  height: 90px;
+  font-size: 3rem;
+  display: grid;
+  place-items: center;
+  border: 2px solid blue;
+  color: black;
+}/*# sourceMappingURL=main.css.map */
